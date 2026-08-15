@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
+  "manifest_version": "2.0",
+  "name": "Nextcloud Desktop",
+  "description": "Synchronize files with a Nextcloud server.",
+  "version": "34.0.1",
+  "image": "ghcr.io/containerpak/nextcloud:main",
+  "binaries": [
+    "/usr/bin/nextcloud"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/nextcloud.desktop"
+  ],
+  "dependencies": [],
+  "addons": [],
+  "idle_time": 0,
+  "override": {
+    "socketX11": true,
+    "socketWayland": true,
+    "socketPulseAudio": false,
+    "socketSessionBus": true,
+    "socketSystemBus": false,
+    "socketSshAgent": false,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "socketAtSpiBus": true,
+    "socketBluetooth": false,
+    "deviceDri": true,
+    "deviceKvm": false,
+    "deviceShm": true,
+    "deviceAlsa": false,
+    "deviceVideo": false,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceInput": false,
+    "deviceTTY": false,
+    "deviceAll": false,
+    "notification": true,
+    "openURI": true,
+    "hostApplications": false,
+    "hostActions": [],
+    "filesystem": [
+      {
+        "path": "xdg-documents",
+        "access": "read-write"
+      },
+      {
+        "path": "xdg-download",
+        "access": "read-write"
+      }
+    ],
+    "env": [],
+    "network": true,
+    "process": false,
+    "userNamespaces": true,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
+    "asRoot": false,
+    "allowedHostCommands": []
+  }
+}

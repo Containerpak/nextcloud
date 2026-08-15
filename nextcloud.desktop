@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Nextcloud Desktop
+Comment=Synchronize files with a Nextcloud server.
+Exec=nextcloud %U
+Icon=nextcloud
+Terminal=false
+Categories=Network;FileTransfer;
