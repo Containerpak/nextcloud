@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "Nextcloud Desktop",
   "description": "Synchronize files with a Nextcloud server.",
-  "version": "34.0.1",
+  "version": "34.0.2",
   "image": "ghcr.io/containerpak/nextcloud:main",
   "binaries": [
     "/usr/bin/nextcloud"

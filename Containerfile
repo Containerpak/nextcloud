@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:729754f7f36f3bad1e3308be9bef1fea596dcbb8d1df94571b885f3eb875513f https://github.com/nextcloud-releases/desktop/releases/download/v34.0.1/Nextcloud-34.0.1-x86_64.AppImage /tmp/app.AppImage
+ADD --checksum=sha256:219dee2db502168997a11e5143010333b624c38c0e5ed8e31f4aa0cb5640ae8c https://github.com/nextcloud-releases/desktop/releases/download/v34.0.2/Nextcloud-34.0.2-x86_64.AppImage /tmp/app.AppImage
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends squashfs-tools && \
