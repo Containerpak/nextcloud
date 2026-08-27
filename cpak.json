@@ -4,7 +4,7 @@
   "name": "Nextcloud Desktop",
   "description": "Synchronize files with a Nextcloud server.",
   "version": "34.0.3",
-  "image": "ghcr.io/containerpak/nextcloud@sha256:cc43638efdacda527257c31696b87c87abcf2251d99864686a4f10107986ec42",
+  "image": "ghcr.io/containerpak/nextcloud@sha256:8c1f253acf1b2d0c803060329484f105a3a959330c9dadb3855066a916778eb8",
   "binaries": [
     "/usr/bin/nextcloud"
   ],
